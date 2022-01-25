@@ -1,0 +1,12 @@
+{
+   "browser_action": {
+      "default_popup": "popup.html"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval' ; object-src 'self'",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlgprXyxdySDV4gEqV2oISEfAGTaJp7qQeqaRAbr8IEt8A0pq3+Af02Z9EQLdLRYADTWC0aFJ+vsO5f6ojGfpabYyWzSsdFY1vh6ls8GL2cUXXrTc4eO8tbcUwLZXy14cLrl7sH5I/Mq6vwYhNUCGJu4om74E2/AaPqGP2ZaKKL2P42p1LOaONWCrnN7kG3lezQgI8iGEyHXODsGN8qvc3egS9js8JSB54D5b2cReEGcX41L3GkFUasO7CG+W5iqQo6K67yoLvMdjkLUmPL+V/TPwegNoNyqbpxdVPavH4V/fM5kBg02x6bwM9oa/qCDGT4I6CvcMi60F9mzvUy1igwIDAQAB",
+   "manifest_version": 2,
+   "name": "WhaleTranslator",
+   "permissions": ["utility", "webRequest", "http://*/*", "https://*/*"],
+   "version": "0.0.1",
+   "whale_extension": true
+}
